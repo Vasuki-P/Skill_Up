@@ -1,0 +1,84 @@
+/* Roles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.companies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.companies-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.roles {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.roles h2{
+  color: black;
+  text-align: center;
+}
+.job-roles {
+  margin-bottom: 20px;
+}
+
+.job-roles h4 {
+  font-size: 18px;
+  color: #666;
+}
+
+.job-role-buttons {
+  flex-wrap: wrap;
+  display: block;
+}
+
+.job-role-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.job-role-button:hover {
+  background-color: #0056b3;
+}
+
+.recruit {
+  margin-bottom: 20px;
+}
+
+.recruit h4 {
+  font-size: 18px;
+  color: #666;
+}
+
+.recruit-steps {
+  margin-top: 10px;
+}
+
+.recruit-step {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
